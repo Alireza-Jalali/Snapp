@@ -11,6 +11,7 @@
 
 body{
     font-family: "IRANSans";
+    overflow-x: hidden;
 }
 
 a{
@@ -83,8 +84,8 @@ li{
 }
 /* end header section styles */
 
-/* start first section styles */
-.first-section-wrapper-snapp{
+/* start intro section styles */
+.intro-section-wrapper-snapp{
     width: 100%;
     min-height: 421px;
     display: flex;
@@ -159,7 +160,7 @@ li{
     cursor: pointer;
 }
 
-.inner-right-box-snapp .btn-first-section-snapp{
+.inner-right-box-snapp .btn-intro-section-snapp{
     margin-top: 2rem;
     background-color: transparent;
     color: var(--white);
@@ -173,7 +174,23 @@ li{
     transition: background-color 0.1s;
 }
 
-.inner-right-box-snapp .btn-first-section-snapp:hover{
+.inner-right-box-snapp .btn-intro-section-snapp:hover{
     background-color: rgba(255, 255, 255, 0.1);
 }
-/* end first section styles */
+/* end intro section styles */
+
+/* start download section styles */
+.download-section-wrapper-snapp{
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 15%;
+}
+
+.download-link-app-snapp > img{
+    width: 160px;
+}
+/* end download section styles */
