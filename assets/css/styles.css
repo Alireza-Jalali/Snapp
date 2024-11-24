@@ -82,3 +82,98 @@ li{
     display: block;
 }
 /* end header section styles */
+
+/* start first section styles */
+.first-section-wrapper-snapp{
+    width: 100%;
+    min-height: 421px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-right-box-snapp{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--green);
+    color: var(--white);
+    padding: 32px 15% 32px 32px;
+}
+
+.inner-left-box-snapp{
+    width: 50%;
+    background-image: url("https://web-cdn.snapp.ir/snapp-website/images/homepage/intro_desktop.jpg");
+    background-position: center center;
+    background-size: cover;
+    transform: rotateY(180deg);
+}
+
+.inner-right-box-snapp .main-title-snapp {
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.inner-right-box-snapp .main-text-snapp{
+    font-size: 20.3px;
+    padding: 1rem 0;
+    font-weight: 300;
+}
+
+.inner-right-box-snapp form{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inner-right-box-snapp form input{
+    width: 318px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--white);
+    background-color: transparent;
+    color: var(--white);
+    text-align: right;
+    padding: 0 0.5rem;
+    line-height: 48px;
+}
+
+.inner-right-box-snapp form input::placeholder{
+    color: #B8E4CC;
+}
+
+.inner-right-box-snapp form button{
+    margin-right: 1rem;
+    background-color: var(--white);
+    color: var(--light-green);
+    border: none;
+    border-radius: 6px;
+    padding: 0 0.5rem;
+    font-size: 14px;
+    font-weight: 700;
+    width: 25%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.inner-right-box-snapp .btn-first-section-snapp{
+    margin-top: 2rem;
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 700;
+    width: 318px;
+    height: 48px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.inner-right-box-snapp .btn-first-section-snapp:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/* end first section styles */
