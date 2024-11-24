@@ -1,0 +1,84 @@
+@import url("./reset.css");
+@import url("./fonts.css");
+@import url("./grid-system.css");
+
+:root{
+    --white: #ffffff;
+    --black: #3f3f3f;
+    --green: #21aa58;
+    --light-green: #00d170;
+}
+
+body{
+    font-family: "IRANSans";
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* start header section styles */
+.header-snapp{
+    width: 100%;
+    height: 96px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 11.5%;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: var(--white);
+    position: sticky; 
+    top: 0;
+    z-index: 999;
+}
+
+.wrapper-menu-header-snapp{
+    display: flex;
+}
+
+.item-menu-header-snapp > a{
+    margin-right: 32px;
+    color: var(--black);
+}
+
+.has-sub-menu{
+    position: relative;
+}
+
+.has-sub-menu a svg{
+    transform: rotate(90deg);
+    margin-right: 10px;
+}
+
+.submenu-header-snapp{
+    position: absolute;
+    width: 170px;
+    padding: 6px 4px;
+    border: 1px solid #dedede;
+    border-radius: 9px;
+    background-color: var(--white);
+    display: none;
+}
+
+.submenu-item-snapp{
+    padding: 0.5rem 1rem;
+    text-align: right;
+}
+
+.submenu-item-snapp > a{
+    color: var(--black);
+}
+
+.submenu-item-snapp > a:hover{
+    color: var(--light-green);
+    font-weight: bold;
+}
+
+.has-sub-menu:hover .submenu-header-snapp{
+    display: block;
+}
+/* end header section styles */
