@@ -93,7 +93,7 @@ li{
     justify-content: space-between;
 }
 
-.inner-right-box-snapp{
+.inner-right-box-intro-snapp{
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -103,7 +103,7 @@ li{
     padding: 32px 15% 32px 32px;
 }
 
-.inner-left-box-snapp{
+.inner-left-box-intro-snapp{
     width: 50%;
     background-image: url("https://web-cdn.snapp.ir/snapp-website/images/homepage/intro_desktop.jpg");
     background-position: center center;
@@ -111,27 +111,27 @@ li{
     transform: rotateY(180deg);
 }
 
-.inner-right-box-snapp .main-title-snapp {
+.inner-right-box-intro-snapp .main-title-snapp {
     font-size: 36px;
     line-height: 52px;
     font-weight: 700;
     margin-bottom: 1rem;
 }
 
-.inner-right-box-snapp .main-text-snapp{
+.inner-right-box-intro-snapp .main-text-snapp{
     font-size: 20.3px;
     padding: 1rem 0;
     font-weight: 300;
 }
 
-.inner-right-box-snapp form{
+.inner-right-box-intro-snapp form{
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.inner-right-box-snapp form input{
+.inner-right-box-intro-snapp form input{
     width: 318px;
     border: none;
     outline: none;
@@ -143,11 +143,11 @@ li{
     line-height: 48px;
 }
 
-.inner-right-box-snapp form input::placeholder{
+.inner-right-box-intro-snapp form input::placeholder{
     color: #B8E4CC;
 }
 
-.inner-right-box-snapp form button{
+.inner-right-box-intro-snapp form button{
     margin-right: 1rem;
     background-color: var(--white);
     color: var(--light-green);
@@ -161,7 +161,7 @@ li{
     cursor: pointer;
 }
 
-.inner-right-box-snapp .btn-intro-section-snapp{
+.inner-right-box-intro-snapp .btn-intro-section-snapp{
     margin-top: 2rem;
     background-color: transparent;
     color: var(--white);
@@ -175,7 +175,7 @@ li{
     transition: background-color 0.1s;
 }
 
-.inner-right-box-snapp .btn-intro-section-snapp:hover{
+.inner-right-box-intro-snapp .btn-intro-section-snapp:hover{
     background-color: rgba(255, 255, 255, 0.1);
 }
 /* end intro section styles */
@@ -290,3 +290,39 @@ li{
     background-image: url('../img/market-slider.jpg');
 }
 /* end slider section styles */
+
+/* start banner section styles */
+.banner-section-wrapper-snapp{
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.inner-right-box-banner-snapp{
+    width: 50%;
+    background-image: url("../img/super-app.jpg");
+    background-size: cover;
+    background-position: left center;
+}
+
+.inner-left-box-banner-snapp{
+    width: 50%;
+    padding: 16px 40px 0 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-left-box-banner-snapp h2{
+    font-size: 22px;
+    margin: 1rem 0 0.5rem;
+    color: #404040;
+}
+
+.inner-left-box-banner-snapp p{
+    font-size: 14px;
+    margin: 0.5rem 0;
+    color: #404040;
+    text-align: justify;
+}
+/* end banner section styles */
