@@ -1,6 +1,7 @@
 @import url("./reset.css");
 @import url("./fonts.css");
 @import url("./grid-system.css");
+@import url("./_slider.css");
 
 :root{
     --white: #ffffff;
@@ -23,7 +24,7 @@ li{
 }
 
 /* start header section styles */
-.header-snapp{
+.header-section-wrapper-snapp{
     width: 100%;
     height: 96px;
     display: flex;
@@ -41,7 +42,7 @@ li{
     display: flex;
 }
 
-.item-menu-header-snapp a{
+.item-menu-header-snapp > a{
     margin-right: 32px;
     color: var(--black);
 }
@@ -198,7 +199,8 @@ li{
 /* start services section styles */
 .services-section-wrapper-snapp{
     background-color: #f2f5f8;
-    padding: 0 15%;
+    padding: 0 15% 40px 15%;
+    margin-bottom: 40px;
 }
 
 .services-section-title-snapp{
@@ -252,4 +254,39 @@ li{
     font-weight: 300;
     color: #a3a3a3;
 }
+
+.services-items-wrapper-snapp .services-item-snapp:nth-child(7) img{
+    transform: scale(1.16);
+    transform-origin: right bottom;
+}
 /* end services section styles */
+
+/* start slider section styles */
+.slider-section-wrapper-snapp{
+    margin: 40px 0 32px;
+    padding: 40px 15%;
+}
+
+.slider-section-wrapper-snapp .keen-slider{
+    border-radius: 10px;
+}
+
+[class*="number-slide"]{
+    width: 100%;
+    height: 438px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.number-slide-1{
+    background-image: url('../img/driver-slider.jpg');
+}
+
+.number-slide-2{
+    background-image: url('../img/food-slider.jpg');
+}
+
+.number-slide-3{
+    background-image: url('../img/market-slider.jpg');
+}
+/* end slider section styles */
