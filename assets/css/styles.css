@@ -326,3 +326,39 @@ li{
     text-align: justify;
 }
 /* end banner section styles */
+
+/* start benefits section styles */
+.benefits-section-wrapper-snapp{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    padding: 0 15%;
+    position: relative;
+    bottom: 55px;
+}
+
+.benefits-items-snapp{
+    width: 25%;
+    margin: 0 2rem;
+}
+
+.benefits-items-snapp div:first-child{
+    background-color: #f2f5f8;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.benefits-items-snapp h5{
+    font-size: 17px;
+    font-weight: 700;
+    color: #404040;
+    margin: 1rem 0;
+}
+
+.benefits-items-snapp p{
+    font-size: 12px;
+    font-weight: 300;
+    color: #404040;
+}
+/* end benefits section styles */
