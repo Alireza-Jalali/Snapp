@@ -340,6 +340,7 @@ li{
 .benefits-items-snapp{
     width: 25%;
     margin: 0 2rem;
+    color: #404040;
 }
 
 .benefits-items-snapp div:first-child{
@@ -352,13 +353,96 @@ li{
 .benefits-items-snapp h5{
     font-size: 17px;
     font-weight: 700;
-    color: #404040;
     margin: 1rem 0;
 }
 
 .benefits-items-snapp p{
     font-size: 12px;
     font-weight: 300;
-    color: #404040;
 }
 /* end benefits section styles */
+
+/* start video section styles */
+.video-section-wrapper-snapp{
+    background-color: #f2f5f8;
+    color: #404040;
+    margin-top: 40px;
+    padding: 40px 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-section-wrapper-snapp h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.video-section-wrapper-snapp > p{
+    font-size: 20px;
+    padding: 1rem 0;
+}
+
+.video-section-wrapper-snapp button{
+    font-size: 17px;
+    font-weight: 700;
+    background-color: var(--light-green);
+    color: var(--white);
+    margin: 1rem 0;
+    padding: 0 2rem;
+    border: none;
+    border-radius: 6px;
+    height: 48px;
+}
+
+.video-section-wrapper-snapp button:hover{
+    background-color: #00db75;
+}
+
+.video-section-wrapper-snapp video{
+    width: 100%;
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+.bottom-video-section-snapp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bottom-video-item-snapp{
+    background-color: var(--white);
+    color: #404040;
+    height: 200px;
+    width: 49%;
+    margin-top: 2rem;
+    padding: 0 2rem;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-video-item-snapp img{
+    width: 120px;
+    height: auto;
+}
+
+.bottom-video-title-snapp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+.bottom-video-title-snapp h6{
+    padding: 0.5rem 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bottom-video-title-snapp p{
+    font-size: 14px;
+    font-weight: 300;
+}
+/* end video section */
