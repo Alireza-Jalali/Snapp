@@ -462,18 +462,14 @@ li{
 }
 
 .nav-footer-snapp li a{
-    margin: 0.5rem 0 0.5rem 0.5rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem 0 0.5rem 0.5rem;
     color: #404040;
 }
 
 .footer-section-wrapper-snapp .social{
     display: flex;
-    gap: 10px;
+    gap: 8px;
     margin: 1.5rem 0;
-}
-
-.footer-section-wrapper-snapp .social ion-icon{
-    font-size: 26px;
-    color: #404040;
 }
 /* end footer section styles */
