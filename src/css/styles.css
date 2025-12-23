@@ -1,0 +1,90 @@
+@import url('./fonts.css');
+
+:root{
+    --white: #ffffff;
+    --black: #3f3f3f;
+    --green: #21aa58;
+    --light-green: #00d170;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "IRANSans";
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* start header section styles */
+.header-section-wrapper-snapp{
+    width: 100%;
+    height: 96px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 11.5%;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: var(--white);
+    position: fixed; 
+    top: 0;
+    z-index: 10;
+}
+
+.logo-header-snapp{
+    display: flex;
+}
+
+.wrapper-menu-header-snapp{
+    display: flex;
+    align-items: center;
+}
+
+.item-menu-header-snapp > a{
+    margin-right: 1.5rem;
+    color: var(--black);
+}
+
+.has-sub-menu{
+    position: relative;
+}
+
+.has-sub-menu a svg{
+    transform: rotate(90deg);
+    margin-right: 8px;
+    vertical-align: -3px;
+}
+
+.submenu-header-snapp{
+    position: absolute;
+    width: 170px;
+    padding: 6px 4px;
+    border: 1px solid #dedede;
+    border-radius: 9px;
+    background-color: var(--white);
+    display: none;
+}
+
+.submenu-item-snapp{
+    padding: 0.5rem 1rem;
+    text-align: right;
+}
+
+.submenu-item-snapp a{
+    color: var(--black);
+}
+
+.has-sub-menu:hover .submenu-header-snapp{
+    display: block;
+}
+/* end header section styles */
