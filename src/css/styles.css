@@ -4,17 +4,16 @@
     --white: #ffffff;
     --black: #3f3f3f;
     --green: #21aa58;
-    --light-green: #00d170;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "IRANSans";
 }
 
 body{
-    font-family: "IRANSans";
     overflow-x: hidden;
 }
 
@@ -36,7 +35,7 @@ li{
     padding: 0 11.5%;
     border-bottom: 1px solid #e5e5e5;
     background-color: var(--white);
-    position: fixed; 
+    position: sticky; 
     top: 0;
     z-index: 10;
 }
@@ -88,3 +87,97 @@ li{
     display: block;
 }
 /* end header section styles */
+
+/* start intro section styles */
+.intro-section-wrapper-snapp{
+    width: 100%;
+    min-height: 464px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-right-box-intro-snapp{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--green);
+    color: var(--white);
+    padding: 2rem 10% 2rem 4rem;
+}
+
+.inner-left-box-intro-snapp{
+    width: 50%;
+    background-image: url("../../assets/img/person.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.inner-right-box-intro-snapp .main-title-snapp {
+    font-size: 36px;
+    line-height: 1.8;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.inner-right-box-intro-snapp .main-text-snapp{
+    font-size: 20.3px;
+    padding: 1rem 0;
+    font-weight: 300;
+}
+
+.inner-right-box-intro-snapp form{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inner-right-box-intro-snapp form input{
+    width: 240px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--white);
+    background-color: transparent;
+    color: var(--white);
+    text-align: right;
+    padding: 0 0.5rem;
+    line-height: 48px;
+}
+
+.inner-right-box-intro-snapp form input::placeholder{
+    color: var(--white);
+}
+
+.inner-right-box-intro-snapp form button{
+    margin-right: 1rem;
+    background-color: var(--white);
+    color: var(--green);
+    border: none;
+    border-radius: 6px;
+    padding: 0 0.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.inner-right-box-intro-snapp .btn-intro-section-snapp{
+    margin-top: 2rem;
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 700;
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.inner-right-box-intro-snapp .btn-intro-section-snapp:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/* end intro section styles */
