@@ -15,7 +15,6 @@
 
 body{
     overflow-x: hidden;
-    height: 2000px;
 }
 
 a{
@@ -262,3 +261,39 @@ li{
     transform-origin: right bottom;
 }
 /* end services section styles */
+
+/* start banner section styles */
+.banner-section-wrapper-snapp{
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.inner-right-box-banner-snapp{
+    width: 50%;
+    background-image: url("../../assets/img/super-app.jpg");
+    background-size: cover;
+    background-position: left center;
+}
+
+.inner-left-box-banner-snapp{
+    width: 50%;
+    padding: 16px 40px 0 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-left-box-banner-snapp h2{
+    font-size: 22px;
+    margin: 1rem 0 0.5rem;
+    color: #404040;
+}
+
+.inner-left-box-banner-snapp p{
+    font-size: 14px;
+    margin: 0.5rem 0;
+    color: #404040;
+    text-align: justify;
+}
+/* end banner section styles */
