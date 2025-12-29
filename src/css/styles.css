@@ -262,6 +262,40 @@ li{
 }
 /* end services section styles */
 
+/* start slider section styles */
+.slider-section-wrapper-snapp{
+    margin: 40px 0 32px;
+    padding: 40px 15%;
+}
+
+.slider-section-wrapper-snapp .keen-slider{
+    border-radius: 10px;
+}
+
+[class*="number-slide"]{
+    width: 100%;
+    height: 438px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.number-slide-1{
+    background-image: url('../../assets/img/discount-slider.webp');
+}
+
+.number-slide-2{
+    background-image: url('../../assets/img/driver-slider.jpg');
+}
+
+.number-slide-3{
+    background-image: url('../../assets/img/food-slider.jpg');
+}
+
+.number-slide-4{
+    background-image: url('../../assets/img/market-slider.jpg');
+}
+/* end slider section styles */
+
 /* start banner section styles */
 .banner-section-wrapper-snapp{
     width: 100%;
@@ -305,7 +339,7 @@ li{
     margin-top: 0.5rem;
     padding: 0 10%;
     position: relative;
-    bottom: 55px;
+    bottom: 80px;
 }
 
 .benefits-items-snapp{
