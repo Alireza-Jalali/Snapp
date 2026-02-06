@@ -43,6 +43,7 @@ li{
 
 .logo-header-snapp{
     display: flex;
+    margin-left: 0.5rem;
 }
 
 .wrapper-menu-header-snapp{
@@ -94,6 +95,12 @@ li{
 
 .bars-header-snapp{
     display: none;
+    padding: 0.5rem;
+}
+
+.bars-header-snapp:hover{
+    background-color: #eeeeef;
+    border-radius: 5px;
 }
 
 .bars-header-snapp .bars{
@@ -333,18 +340,29 @@ li{
 
 @media only screen and (max-width:768px){
     .services-section-wrapper-snapp{
-        padding: 0 1rem;
-        margin-bottom: 200px;
+        padding: 0 1rem 2rem 1rem;
+        margin-bottom: 4rem;
     }
     .services-section-title-snapp{
         font-size: 20px;
+        padding: 24px 0;
     }
     .box-titles-snapp p{
         display: none;
     }
+    .services-items-wrapper-snapp{
+        justify-content: space-around;
+    }
     .services-item-snapp{
         flex-direction: column;
         width: 20%;
+    }
+    .services-item-snapp img{
+        width: 48px;
+        height: 48px;
+    }
+    .box-titles-snapp{
+        padding: 0;
     }
     .box-titles-snapp h3{
         text-align: center;
@@ -385,6 +403,12 @@ li{
 .number-slide-4{
     background-image: url('../../assets/img/market-slider.jpg');
 }
+
+@media only screen and (max-width:768px){
+    .slider-section-wrapper-snapp{
+        display: none;
+    }
+}
 /* end slider section styles */
 
 /* start banner section styles */
@@ -419,7 +443,6 @@ li{
     font-size: 14px;
     margin: 0.5rem 0;
     color: #404040;
-    text-align: justify;
 }
 
 @media only screen and (max-width:768px){
@@ -428,13 +451,14 @@ li{
     }
     .inner-right-box-banner-snapp{
         position: absolute;
-        top: 2200px;
+        display: block;
         width: 100%;
         height: 30%;
     }
     .inner-left-box-banner-snapp{
         width: 100%;
         padding: 1rem;
+        margin: 270px 0 100px 0;
     }
     .inner-left-box-banner-snapp p{
         line-height: 1.7;
@@ -482,8 +506,6 @@ li{
         align-items: center;
         padding: 0 1rem;
         gap: 2.5rem;
-        position: relative;
-        bottom: 150px;
     }
     .benefits-items-snapp{
         width: 100%;
@@ -498,7 +520,7 @@ li{
 
 /* start video section styles */
 .video-section-wrapper-snapp{
-    background-color: #e9f7ee;
+    background-color: #EEEFFF;
     color: #404040;
     margin-top: 40px;
     padding: 40px 15%;
@@ -582,6 +604,7 @@ li{
 
 @media only screen and (max-width:768px){
     .video-section-wrapper-snapp{
+        margin-top: 0;
         padding: 20px 1rem;
     }
     .video-section-wrapper-snapp h2{
@@ -593,6 +616,9 @@ li{
         text-align: center;
         line-height: 1.7;
     }
+    .video-section-wrapper-snapp video{
+        margin: 10px 0;
+    }
     .bottom-video-section-snapp{
         flex-direction: column;
     }
@@ -600,11 +626,16 @@ li{
         flex-direction: column;
         justify-content: center;
         width: 100%;
+        height: 220px;
         padding: 1rem;
+        margin-top: 1rem;
     }
     .bottom-video-item-snapp img{
         width: 80px;
         height: auto;
+    }
+    .bottom-video-title-snapp{
+        padding-right: 0;
     }
     .bottom-video-title-snapp h6{
         padding: 1rem 0;
@@ -633,7 +664,7 @@ li{
 
 .nav-footer-snapp li a{
     margin: 0.5rem 0 0.5rem 0.5rem;
-    color: #404040;
+    color: #3c4151;
 }
 
 .footer-section-wrapper-snapp .social{
@@ -642,7 +673,7 @@ li{
     margin: 1.5rem 0;
 }
 
-.footer-section-wrapper-snapp .social ion-icon{
+.footer-section-wrapper-snapp .social li a svg{
     font-size: 26px;
     color: #404040;
 }
@@ -660,6 +691,11 @@ li{
 }
 
 @media only screen and (max-width:768px){
-
+    .footer-section-wrapper-snapp{
+        padding: 32px 5%;
+    }
+    .footer-section-wrapper-snapp .social{
+        gap: 1rem;
+    }
 }
 /* end footer section styles */
